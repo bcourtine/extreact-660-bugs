@@ -57,6 +57,7 @@ export default class Home extends Component {
                     dataIndex="phone"
                     flex={2}
                     resizable
+                    renderer={ value => (<span>{value}</span>) }
                 />
             </Grid>
 
